@@ -1,0 +1,4 @@
+add_lunch_combo aosp_us996-user
+add_lunch_combo aosp_us996-userdebug
+add_lunch_combo aosp_us996-eng
+
