@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/us996/full_us996.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common RR stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_NAME := lineage_us996
+PRODUCT_NAME := rr_us996
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="v20" \

@@ -1,3 +1,3 @@
-add_lunch_combo lineage_us996-user
-add_lunch_combo lineage_us996-userdebug
-add_lunch_combo lineage_us996-eng
+add_lunch_combo rr_us996-user
+add_lunch_combo rr_us996-userdebug
+add_lunch_combo rr_us996-eng
