@@ -14,3 +14,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="elsa_nao_us-user 7.0 NRD90M 162831845a3a3 release-keys"
 
 BUILD_FINGERPRINT := "lge/elsa_nao_us/elsa:7.0/NRD90M/162831845a3a3:user/release-keys"
+PRODUCT_PACKAGES += Phonograph
+PRODUCT_PACKAGES += AOSPSignBoard
